@@ -6,11 +6,6 @@ common folder contains shared components like navbar and texinput which are used
 
 Routes.
 This are Routes I created to be rendered to myapp 
-
-
-
-
-
          <Switch>
           <Route path="/products" component={ProductPage} />
           <Route path="/product/" component={SearchProductPage} />
