@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import HomePage from "./components/home/HomePage";
+import LoginPage from "./components/home/LoginPage";
 import Navbar from "./components/common/Navbar";
 import ProductPage from "./components/product/ProductPage";
 import CreateProductPage from "./components/product/CreateProductPage";
@@ -18,6 +19,7 @@ function App() {
           <Route path="/delete" component={DeleteProductPage} />
           <Route path="/create" component={CreateProductPage} />
           <Route path="/" component={HomePage} />
+          <Route path="/login" component={LoginPage} />
         </Switch>
       </div>
     </div>
